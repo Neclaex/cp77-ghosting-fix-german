@@ -1,11 +1,11 @@
 local Config = {
   __EDITION = "IV",
   __VERSION_NUMBER = 480,
-  __VERSION_SUFFIX = "xl",
+  __VERSION_SUFFIX = "",
   MaskingGlobal = {
     enabled = true,
-    ironsightController = false,
-    masksController = "gameuiCrosshairContainerController",
+    ironsightController = true,
+    masksController = "IronsightGameController",
     Widgets = {
       hedCorners = "horizontaledgedowncorners",
       hedFill = "horizontaledgedownfill",
