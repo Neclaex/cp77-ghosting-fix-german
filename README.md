@@ -1,4 +1,4 @@
-# FrameGen-Ghosting-Fix-PCE-GER
+# FrameGen Ghosting 'Fix' for FSR3 FG Mods - German
 This is a translation for the [FrameGen Ghosting 'Fix' for FSR3 FG Mods](https://www.nexusmods.com/cyberpunk2077/mods/13029) mod by [gramern](https://next.nexusmods.com/profile/gramern/about-me) from English to German.
 
 This is an unofficial, imperfect translation and is for the FrameGen Ghosting Fix Preem Compatibility Edition v. **4.8.2xl**.
