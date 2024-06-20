@@ -119,7 +119,7 @@ local UITranslation = {
       authorname = "Author der Voreinstellung:",
       Customize = {
         name = "Benutzerdefiniert",
-        description = "Passen die Voreinstellung für dein Fahrzeuge an.",
+        description = "Pass die Voreinstellung für dein Fahrzeuge an.",
       },
       Default = {
         name = "Standard",
