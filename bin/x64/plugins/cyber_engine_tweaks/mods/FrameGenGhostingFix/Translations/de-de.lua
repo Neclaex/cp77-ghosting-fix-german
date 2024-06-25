@@ -1,33 +1,32 @@
-local UITranslation = {
+local translation = {
     General = {
-        modname_log = "[FrameGen Ghosting 'Fix']",
         title_general = "Allgemeine Einstellungen:",
         title_fps90 = "90+ FPS FG EIN Einstellungen:",
         title_fps100 = "100+ FPS FG EIN Einstellungen:",
         title_fps120 = "120+ FPS FG EIN Einstellungen:",
         yes = "Ja",
         no = "Nein",
-        settings_loaded = "Benutzer Einstellungen geladen.",
-        settings_loaded_preset = "Voreinstellungen geladen",
+        -- settings_loaded = "Benutzer Einstellungen geladen.",
+        -- settings_loaded_preset = "Voreinstellungen geladen",
         settings_apply = "  Anwenden  ",
         settings_applied_veh = "[ ! ] Ausgewählte Voreinstellungen angewandt.",
         settings_save = "Einstellungen speichern",
         settings_saved = "[ ! ] Deine Einstellungen wurden gespeichert.",
         settings_saved_onfoot = "[ ! ] Ziehe deine Waffe erneut um Änderungen anzuwenden",
-        settings_save_path = "Deine Einstellungen wurden in deiner '.../cyber_engine_tweaks/mods/FrameGenGhostingFix/user_settings.json' Datei gespeichert.",
-        settings_notfound = "Die 'user_settings.json' Datei wurde nicht gefunden",
-        settings_benchmark_start = "Benchmark wird gestartet...",
-        settings_benchmarked_1 = "Durchschnittlich gemessene FPS ohne Frame Generation =",
-        settings_benchmarked_2 = "Einstellungen werden entsprechend angewendet...",
+        -- settings_save_path = "Deine Einstellungen wurden in deiner '.../cyber_engine_tweaks/mods/FrameGenGhostingFix/user_settings.json' Datei gespeichert.",
+        -- settings_notfound = "Die 'user_settings.json' Datei wurde nicht gefunden",
+        -- settings_benchmark_start = "Benchmark wird gestartet...",
+        -- settings_benchmarked_1 = "Durchschnittlich gemessene FPS ohne Frame Generation =",
+        -- settings_benchmarked_2 = "Einstellungen werden entsprechend angewendet...",
         settings_default = "Zurücksetzen",
         info_aim_onfoot = "[ ! ] Es kann jeweils eine Ziel-/Blockierungsfunktion aktivieren.",
         info_version = "Mod Version:",
-        info_diagnostics = "Mögliche Konflikte mit anderen Mods erkannt.",
-        info_calculateMissing = "Das 'Calculate' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
-        info_configMissing = "Das 'Config' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
-        info_presetsMissing = "Das 'Presets' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
-        info_vectorsMissing = "Das 'Vectors' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
-        info_aspectRatioChange = "Das Seitenverhältnis deines Bildschirms hat sich geändert. Bitte starte das Spiel neu, um sicherzustellen, dass die Mod wie vorgesehen funktioniert.",
+        -- info_diagnostics = "Mögliche Konflikte mit anderen Mods erkannt.",
+        -- info_calculateMissing = "Das 'Calculate' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
+        -- info_configMissing = "Das 'Config' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
+        -- info_presetsMissing = "Das 'Presets' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
+        -- info_vectorsMissing = "Das 'Vectors' Modul konnte nicht gefunden werden. Die Mod wird nicht funktionieren...",
+        -- info_aspectRatioChange = "Das Seitenverhältnis deines Bildschirms hat sich geändert. Bitte starte das Spiel neu, um sicherzustellen, dass die Mod wie vorgesehen funktioniert.",
     },
     Info = {
         tabname = "Info",
@@ -115,41 +114,52 @@ local UITranslation = {
         textfield_4 = "Mögliche konfliktierende Mods:"
     },
     Presets = {
-      infoname = "Voreinstellungs Info:",
-      authorname = "Author der Voreinstellung:",
-      Customize = {
-        name = "Benutzerdefiniert",
-        description = "Pass die Voreinstellung für dein Fahrzeuge an.",
-      },
-      Default = {
-        name = "Standard",
-        description = "Standard Voreinstellungen für Fahrzeuge.",
-      },
-      HDRTest1 = {
-        name = "RenoDX HDR Test 1",
-        description = "HDR-Voreinstellung exklusiv für RenoDXs HDR.\nFür das In-Game-HDR PQ10 die Standardvorlage verwenden.",
-      },
-      HDRTest2 = {
-        name = "RenoDX HDR Test 2",
-        description = "HDR-Voreinstellung exklusiv für RenoDXs HDR.\nFür das In-Game-HDR PQ10 die Standardvorlage verwenden.",
-      },
-      HDRTest3 = {
-        name = "RenoDX HDR Test 3",
-        description = "HDR-Voreinstellung exklusiv für RenoDXs HDR.\nFür das In-Game-HDR PQ10 die Standardvorlage verwenden.",
-      },
-      Stronger = {
-        name = "Verstärkt",
-        description = "Die Anti-Ghosting-Stärke der Masken ist etwas höher\nund ihre Zustandsänderungsverzögerung bei\neiner plötzlichen Geschwindigkeitsabnahme ist\ndoppelt so lang (3 Sekunden statt 1,5).",
-      },
-      Testing = {
-        name = "Test",
-        description = "Testvorlage, alle Masken sind sichtbar.",
-      },
-      TurnOff = {
-        name = "Anti-Ghosting-Maskierung deaktiviert",
-        description = "Deaktiviert TPP- und FPP-Anti-Ghosting-Masken für alle Fahrzeuge",
-      },
+      infotabname = "Beschreibung:",
+      authtabname = "Author:",
+      Info = {
+        [0] = {
+          -- Customize
+          name = "Benutzerdefiniert",
+          description = "Pass die Voreinstellung für dein Fahrzeuge an.",
+        },
+        [1] = {
+          -- Default
+          name = "Standard",
+          description = "Standard Voreinstellungen für Fahrzeuge.",
+        },
+        [2] = {
+          -- HDRTest1
+          name = "RenoDX HDR Test 1",
+          description = "HDR-Voreinstellung exklusiv für RenoDXs HDR.\nFür das In-Game-HDR PQ10 die Standardvorlage verwenden.",
+        },
+        [2] = {
+          -- HDRTest2
+          name = "RenoDX HDR Test 2",
+          description = "HDR-Voreinstellung exklusiv für RenoDXs HDR.\nFür das In-Game-HDR PQ10 die Standardvorlage verwenden.",
+        },
+        [3] = {
+          -- HDRTest3
+          name = "RenoDX HDR Test 3",
+          description = "HDR-Voreinstellung exklusiv für RenoDXs HDR.\nFür das In-Game-HDR PQ10 die Standardvorlage verwenden.",
+        },
+        [4] = {
+          -- Stronger
+          name = "Verstärkt",
+          description = "Die Anti-Ghosting-Stärke der Masken ist etwas höher\nund ihre Zustandsänderungsverzögerung bei\neiner plötzlichen Geschwindigkeitsabnahme ist\ndoppelt so lang (3 Sekunden statt 1,5).",
+        },
+        [5] = {
+          -- Testing
+          name = "Test",
+          description = "Testvorlage, alle Masken sind sichtbar.",
+        },
+        [6] = {
+          -- TurnOff
+          name = "Anti-Ghosting-Maskierung deaktiviert",
+          description = "Deaktiviert TPP- und FPP-Anti-Ghosting-Masken für alle Fahrzeuge",
+        },
+      }
     }
   }
   
-  return UITranslation
+  return translation
+  
