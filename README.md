@@ -5,7 +5,7 @@ This is an unofficial, imperfect translation and is **only** for the FrameGen Gh
 
 
 
-To install, simply Download the Zip from the [Nexus Mod Page](https://www.nexusmods.com/cyberpunk2077/mods/15367?tab=files) and unzip the folder in your Cyberpunk folder, as you did with most other mods.
+To install, simply Download the `Zip` from the [Nexus Mod Page](https://www.nexusmods.com/cyberpunk2077/mods/15367?tab=files) and unzip the folder in your Cyberpunk folder, as you did with most other mods.
 
 Unfortunately, the `UIText.lua` alone is not enough for a complete translation, as some sentences/words are in other files. If you want to check that nothing has changed except the language, you can find the original repo here:
     - **v4.8.2** [gramern/cp77-ghosting-fix](https://github.com/gramern/cp77-ghosting-fix/tree/main/resources/bin/x64/plugins/cyber_engine_tweaks/mods/FrameGenGhostingFix).
