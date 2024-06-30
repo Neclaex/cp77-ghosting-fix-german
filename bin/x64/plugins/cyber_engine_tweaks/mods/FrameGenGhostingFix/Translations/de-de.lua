@@ -10,7 +10,7 @@ local translation = {
     -- settings_loaded_preset = "Voreinstellungen geladen",
     settings_apply = "  Anwenden  ",
     settings_applied_veh = "[ ! ] Ausgewählte Voreinstellungen angewandt.",
-    settings_save = "Einstellungen speichern",
+    settings_save = "Speichern",
     settings_saved = "[ ! ] Deine Einstellungen wurden gespeichert.",
     settings_saved_onfoot = "[ ! ] Ziehe deine Waffe erneut um Änderungen anzuwenden",
     -- settings_save_path = "Deine Einstellungen wurden in deiner '.../cyber_engine_tweaks/mods/FrameGenGhostingFix/user_settings.json' Datei gespeichert.",
@@ -61,7 +61,7 @@ local translation = {
     },
   },
   OnFoot = {
-    tabname = "Zu Fuß",
+    tabname = "Fußgänger",
     BottomCornersMasks = {
       name = "Anti-Ghosting-Masken für untere Ecken aktivieren",
       tooltip = "Aktiviert positionsfeste Anti-Ghosting-Masken, um die lokale Frame\nGenerierung an den unteren Ecken Ihres Bildschirms zu verhindern\nund Ghosting zu reduzieren, wenn V eine Waffe hält.",
