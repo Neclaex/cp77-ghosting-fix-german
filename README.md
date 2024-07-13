@@ -5,11 +5,11 @@ Dies ist die Übersetzung der Benutzeroberfläche der FrameGen Ghosting 'Fix' Mo
 
 Verwendest du Deutsch als Spracheinstellung, benötigst du diese Übersetzungsdatei, damit das UI von FrameGen Ghosting 'Fix' auf Deutsch angezeigt wird.
 
-**Ab sofort mit jeder Version der Mod, die höher als 4.9.0 ist, kompatibel.**
+**Ab sofort mit jeder Version der Mod, die höher als 4.9.0 ist, kompatibel. (Angabe ohne Gewähr)**
 
 # Anforderungen
 + Cyberpunk 2.12+
-+ [FrameGen Ghosting 'Fix'](https://github.com/gramern/cp77-ghosting-fix) 4.9.0+
++ [FrameGen Ghosting 'Fix'](https://www.nexusmods.com/cyberpunk2077/mods/13029?tab=files) 4.9.0+
 
 # Veröffentlichungen
 + Die Übersetzung zum download findest du auf [meiner Nexus Mod Seite](https://www.nexusmods.com/cyberpunk2077/mods/15367).
