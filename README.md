@@ -1,4 +1,4 @@
-![FrameGen Ghosting 'Fix' logo](https://raw.githubusercontent.com/gramern/cp77-ghosting-fix/main-xl/docs/assets/images/fgghostingfix_title_2000_500.png)
+![FrameGen Ghosting 'Fix' logo](https://raw.githubusercontent.com/gramern/cp77-ghosting-fix/main/docs/assets/images/fgghostingfix_title_2000_500.png)
 
 # FrameGen Ghosting 'Fix' - German Translation mod für Cyberpunk 2077
 Dies ist die Übersetzung der Benutzeroberfläche der FrameGen Ghosting 'Fix' Mod von [Gramern](https://github.com/gramern/cp77-ghosting-fix) für den deutschsprachigen Raum. Basierend auf deinen Benutzeroberflächeneinstellungen im Spiel, wird seit Version 4.9.0 und aufwärts nun auch der angezeigte Text der Mod übersetzt.
